@@ -50,9 +50,7 @@ let allTasks = document.getElementById('tasks');
 const removeButons = document.getElementsByClassName('fa-times-circle');
 for (const removeButon of removeButons) {
     removeButon.addEventListener('click', function(e) {
-        if (allTasks.lastElementChild !== true) {
-            const task = e.target.parentElement.parentElement;
-            allTasks.removeChild(task);
-        }
+        const task = e.target.parentElement.parentElement;
+        allTasks.removeChild(task);
     });
 }

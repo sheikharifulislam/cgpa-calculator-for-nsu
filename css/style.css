@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#cgpa-calculator-section {
+    width: 60%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px 0;
+    border: 1px solid #eee;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.section-title hr {
+    margin-top: 10px;
+}
+
+
+/* style cgpa and credits section */
+
+.cgpa-and-credits-section {
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cgpa-section,
+.credits-section {
+    border: 6px solid #bdc3c7;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.cgpa-section h4,
+.credits-section h4 {
+    font-size: 30px;
+}
+
+.cgpa-section h3,
+.credits-section h3 {
+    font-size: 20px;
+}
+
+
+/* style task title section */
+
+.task-title {
+    display: flex;
+}
+
+.task-title h3 {
+    width: 25%;
+    text-align: center;
+}
+
+
+/*style  task section */
+
+.task {
+    display: flex;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.course-name,
+.credits,
+.grade,
+.close {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+}
+
+.course-name input[type=text] {
+    display: block;
+    width: 140px;
+    padding: 10px 7px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+.credits select,
+.grade select {
+    width: 75px;
+}
+
+.close i {
+    font-size: 30px;
+}
+
+.close i:hover {
+    cursor: pointer;
+}
+
+.add-task-btn {
+    margin-top: 30px;
+    position: relative;
+    left: 85%;
+}
+
+.add-task-btn i {
+    font-size: 50px;
+    color: dodgerblue;
+}
+
+.add-task-btn i:hover {
+    cursor: pointer;
+}
+
+
+/*style  calculate cgpa button */
+
+.calculate-cgpa-buton button {
+    width: 100%;
+    background-color: dodgerblue;
+    border: none;
+    padding: 20px 0;
+    margin-top: 50px;
+    font-size: 20px;
+    color: #fff;
+}
